@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>論文題目</title>
+    <title>向量漸層筆觸非寫實神經網路繪畫</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.lp.css">
 	<link rel="stylesheet" type="text/css" href="css/landing-page.css">
@@ -61,10 +61,10 @@
             <div class="row">
                 <div class="col-lg-12" style="height:300px;">
                     <div class="intro-message" style="position: relative;padding-top: 0%;padding-bottom: 70%;">
-                        <h1>論文題目</h1>
+                        <h1>向量漸層筆觸非寫實神經網路繪畫</h1>
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="demo.html" class="btn btn-default btn-lg"> 
+                                <a href="with_photo gradient.html" class="btn btn-default btn-lg"> 
                                     <span class="network-name" style="font-weight: 900;">進入系統</span>
                                 </a>
                             </li>
@@ -89,11 +89,21 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>  
 					<h2 class="section-heading">摘要 <img src="Anna.svg" alt="" width="100px"></h2>
-					<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+					<p class="lead">本研究針對深度卷積網絡風格繪畫模型中的油畫筆觸風格轉換，提出了一套SVG漸層向量化流程，以保留筆刷結構並避免生成大量的路徑數量。非寫實渲染繪畫的圖片大多為點陣圖，而傳統的點陣圖在放大圖像時存在模糊和品質下降的問題，向量圖則具有可縮放性和保留細節的優勢。然而，現有的SVG向量化方法僅能處理單一填充色彩的路徑，對於含有漸層色彩的圖像效果不理想。本研究提出的流程包括獨立向量化每個筆刷，分析主色調位置並加入漸層色彩控制點，最後將筆刷結果堆疊合併。實驗結果顯示，該流程能夠在非寫實渲染風格轉換中保留完整的筆刷結構以及呈現漸層色彩效果，並為筆刷風格轉換結果提供更大的編輯彈性和印刷品質。</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="img/teaser.jpg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-sm-3">
+                        <br><br><br>
+                        <img class="img-responsive" src="gif/png_stroke.gif" alt="">
+                    </div>
+                    <div class="col-lg-2 col-sm-3">
+                        <br><br><br>
+                        <img class="img-responsive" src="gif/gradient_stroke.gif" alt="">
+                    </div>
                 </div>
             </div>
 
@@ -111,12 +121,21 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">引用文獻</h2>
-					<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+                    <h2 class="section-heading">系統概要與生成結果</h2>
+					<p class="lead">本研究提出針對非寫實渲染繪畫風格轉換圖片的向量化流程。透過將筆觸拆分，獨立進行向量化，保留每一筆觸的資訊，並透過主色調分析方法與色調位置搜尋，在對應位置加入漸層控制點獲取漸層向量筆觸。最後合併各筆觸的向量化結果，還原非寫實渲染繪畫風格轉換圖片。</p>
+                    <a href="./result/sunflowers/">向日葵</a><br>
+                    <a href="./result/bird/">瑞鶴圖</a><br>
+                    <a href="./result/chiken/">芙蓉錦雞圖</a><br>
+                    <a href="./result/Huizong/">宋徽宗畫像</a><br>
+                    <a href="./result/music/">聽琴圖</a><br>
+                    <a href="./result/people/">文繪圖</a><br>
+                    <a href="./result/chiken/">芙蓉錦雞圖</a><br>
+                    <a href="./result/wave/">神奈川沖浪裏</a>
+                    
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/result.png" alt="">
                 </div>
             </div>
 
@@ -134,12 +153,12 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-					<h2 class="section-heading">示範</h2>
-					<p class="lead">內文內文內文內文內文內文內文內文內文內文</p>
+					<h2 class="section-heading">簡介影片</h2>
+					<p class="lead">本論文研究之簡介影片。</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
 					<br><br><br>
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <video controls width="1080" class="img-responsive" src="video/video_short.mp4" alt="">
                 </div>
             </div>
 
