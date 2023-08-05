@@ -1,0 +1,79 @@
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.lp.css">
+    <link rel="stylesheet" type="text/css" href="../../css/landing-page.css">
+    <link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" type="text/css" href="../../css/styleTest.css">
+</head>
+<style>
+    /* 設定每個框的樣式 */
+    .box {
+        border: 1px solid #ccc;
+        padding: 1px;
+        text-align: center;
+    }
+
+    /* 圖片大小符合框的大小 */
+    .box img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .box .btn {
+        font-size: 2px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h2 class="section-heading">Rater Image</h2>
+            <div class="col-md-5 ">
+                <div class="box">
+                    <img class="img-responsive" src="./input.jpg" alt="IMG">
+                    <h5>Original Image</h5>
+                    <a href="./input.jpg" download><button class="btn btn-primary">下載圖片</button></a>
+                </div>
+            </div>
+            <div class="col-md-5 ">
+                <div class="box">
+                    <img class="img-responsive" src="./GT.png" alt="IMG">
+                    <h5>Image after SNP</h5>
+                    <a href="./GT.png" download><button class="btn btn-primary">下載圖片</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2 class="section-heading">SVG Result</h2>
+            <div class="col-md-5 ">
+                <div class="box">
+                    <img class="img-responsive" src="./merged_1.svg" alt="IMG">
+                    <h5>Merged_1</h5>
+                    <a href="./merged_1.svg" download><button class="btn btn-primary">下載圖片</button></a>
+                </div>
+            </div>
+            <div class="col-md-5 ">
+                <div class="box">
+                    <img class="img-responsive" src="./merged_4.svg" alt="IMG">
+                    <h5>Merged_4</h5>
+                    <a href="./merged_4.svg" download><button class="btn btn-primary">下載圖片</button></a>
+                </div>
+            </div>
+            <div class="col-md-5 ">
+                <div class="box">
+                    <img class="img-responsive" src="./merged_hsv_gradient.svg" alt="IMG">
+                    <h5>Merged_Gradient</h5>
+                    <a href="./merged_hsv_gradient.svg" download><button class="btn btn-primary">下載圖片</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
